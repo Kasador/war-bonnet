@@ -1,0 +1,103 @@
+/* ------------
+-- MAIN COLORS --
+    blue: #3C66B0;
+    red: #DE1D3D;
+    white: #FFFFFF
+    brown: #7A2D1C;
+    black: #333333;
+    blue -- from logo: 002537;
+
+WARNING: no comments on colors, please use a good text editor to see color
+-- END OF MAIN COLORS --
+------------ */
+@font-face {
+    font-family: nightFever;
+    src: url(../fonts/nightFever.TTF);
+}
+
+#loginBox {
+    width: 500px;
+    height: 500px;
+    background:#3C66B0;
+    position:absolute;
+    color:#fff;
+    top:50%;
+    left:50%;
+    padding: 10px 70px; 
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border: 2px solid #DE1D3D;
+    font-family: nightFever;
+}
+#logoLogin {
+    display: block;
+    margin: 20px auto;
+}
+#flexFields {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#loginBox label {
+    font-size: 2.0em;
+    padding: 20px 0;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.inputLogin {
+    font-size: 1.5em;
+    width: 300px;
+    margin: 5px auto;
+    border-radius: 10px;
+    border: 2px solid #DE1D3D;
+}
+.inputLogin:focus {
+    outline: none;
+}
+#loginBtn {
+    border-radius: 4px;
+    background-color: #3C66B0;
+    border: 2px solid #DE1D3D;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2.0em;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: block;
+    margin: 50px auto;
+  }
+  #loginBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #loginBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #loginBtn:hover span {
+    padding-right: 25px;
+  }
+  #loginBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  #goHome {
+    position: absolute;
+    width: 250px;
+    right: 150px;
+    bottom: 20px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+

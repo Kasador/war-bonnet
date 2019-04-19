@@ -84,6 +84,68 @@
             </div>
         </div>
     </div>
+    <!-- Tori Wanner -->
+    <div class="mainWrapperDropBtn">
+        <div class="dropDownBtnWrapper">
+            <h1 class="dropDownHeader">Tori Wanner</h1>
+            <img src="images/icons/open.png" class="openBtn">
+        </div>
+        <div class="dropDownContent">
+            <div class="flexRoyQueens">
+                <figure>
+                    <img src="images/royalty/toriWanner.jpg" class="royQueens" />
+                    <figcaption>2019 & 2020 Miss War Bonnet Round Up,<br> Utah</figcaption>
+                </figure>
+                <div class="queenP">
+                    <p>Tori Wanner is the daughter of Ryan and Marie Wanner. Tori graduated from Bear River High School, where she participated in High School Rodeo, FFA and Future Business Leaders of America. 
+                    Participating in these school-sanctioned events gave Tori and an opportunity to compete in many state and national competitions. One of Tori’s favorite events was competing at the FFA national convention in the Ag Sales event.</p>
+                    <p>Tori recently graduated cosmetology school and will receive her license shortly. She will be attending Utah State University this fall pursuing a degree in marketing with a minor in psychology.</p>
+                    <p>Rodeo has instilled in Tori values such as compassion, hard work, determination, discipline, integrity for family and country. She wants to educate and instill those same values into everyone that she is around. She would love nothing more than to celebrate our lifestyle by learning, teaching and serving as Miss War Bonnet Round Up.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ashlyn Hill -->
+    <div class="mainWrapperDropBtn">
+        <div class="dropDownBtnWrapper">
+            <h1 class="dropDownHeader">Ashlyn Hill</h1>
+            <img src="images/icons/open.png" class="openBtn">
+        </div>
+        <div class="dropDownContent">
+            <div class="flexRoyQueens">
+                <figure>
+                    <img src="images/royalty/ashlynHill.jpg" class="royQueens" />
+                    <figcaption>2019 & 2020 War Bonnet Round Up Teen Queen,<br> Idaho</figcaption>
+                </figure>
+                <div class="queenP">
+                    <p>Ashlyn Hill is completing her freshman year of high school in southern Idaho. She competes in barrel racing and pole bending on the rodeo team, dances on the high school drill team, all while maintaining a 4.0 GPA. In her spare time, she enjoys trail riding in the mountains, snow skiing, camping, and fishing with her friends and family.</p>
+                    <p>Ashlyn is an active participant in her FFA chapter, showing dairy heifers and competing in livestock judging, and recently earned her Greenhand award. She looks forward to her sophomore year when she will serve her FFA chapter as secretary.</p>
+                    <p>It is an honor for Ashlyn to represent the War Bonnet Round Up, and promote the great sport of rodeo. Rodeo and the western lifestyle have always been a part of Ashlyn’s life, and she values the opportunity to share what they mean to her with others.</p>
+                    <p>Ashlyn wishes to thank her family and friends for always supporting her. She looks forward to seeing you at the War Bonnet Round Up this year and creating memories to cherish for years to come.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jyllian Christensen -->
+    <div class="mainWrapperDropBtn">
+        <div class="dropDownBtnWrapper">
+            <h1 class="dropDownHeader">Jyllian Christensen</h1>
+            <img src="images/icons/open.png" class="openBtn">
+        </div>
+        <div class="dropDownContent">
+            <div class="flexRoyQueens">
+                <figure>
+                    <img src="images/royalty/jyllianChristensen.jpg" class="royQueens" />
+                    <figcaption>2019 & 2020 War Bonnet Round Up Princess,<br> Mink Creek, Idaho</figcaption>
+                </figure>
+                <div class="queenP">
+                    <p>Jyllian Christensen is the 11-year-old daughter of Kerry and Lacey Christensen of Mink Creek, Idaho.</p>
+                    <p>Jyllian has grown up on horseback; riding in the mountains near her home, moving cows, showing, and just living a cowgirl’s dream. This little firecracker is outgoing, loving, and brave. Besides being a cowgirl, Jyllian competes in Ballroom dance, sings, plays violin, skis, and loves to read. Over the past couple of years, Jyllian has challenged herself to grow her horsemanship skills. She has enjoyed competing in Ranch Horse Versatility and trying to learn to rope.</p>
+                    <p>She was the 2017 Bancroft Jr. Queen and 2018 Cache County Fair and Rodeo Jr. Princess. Representing the great sport of rodeo is important to Jyllian. She is excited for this new opportunity to join the War Bonnet Round Up family and is honored to be chosen the 2019-2020 Princess.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
 </main>
 <?php 

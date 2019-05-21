@@ -8,7 +8,7 @@
     <div class="pagePics">
         <span class="pageHeaders">Results</span>
     </div>
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
     <!-- drop Downs -->
     <section class="mainWrapper">
         <h1 class="contestHeader">Results by Year</h1>

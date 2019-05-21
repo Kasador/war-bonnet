@@ -8,7 +8,7 @@
     <div class="pagePics">
         <span class="pageHeaders">Visitors</span>
     </div>
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
     <!-- drop Downs -->
     <section class="mainWrapper sectionBorder">
 

@@ -8,7 +8,7 @@
     <div class="pagePics">
         <span class="pageHeaders">Volunteer</span>
     </div>
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
     
     <section class="mainWrapper vol">
     <h1 class="volunteerHeader">Our Volunteers</h1>

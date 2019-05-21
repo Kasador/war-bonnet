@@ -8,7 +8,7 @@
     <div class="pagePics">
         <span class="pageHeaders">Sponsors</span>
     </div>
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
     <!-- drop Downs -->
     <section class="mainWrapper flexSpon">
     <h1 class="sponHeaders" style="color: rgb(223, 223, 223);">THANK YOU FOR ALL THE SUPPORT!</h1>

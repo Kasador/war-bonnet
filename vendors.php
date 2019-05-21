@@ -8,7 +8,7 @@
     <div class="pagePics">
         <span class="pageHeaders">Vendors</span>
     </div>
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
     <section class="mainWrapper vol">
     <h1 class="volunteerHeader">Our Vendors</h1>
             <p class="volPara">Arrive early to shop with our vendors .Those who arrive early can explore the western arts, crafts, jewelry, apparel, food and other items offered by our vendors. Gates open at 5 p.m. nightly. Several sponsors will also be on hand.</p>

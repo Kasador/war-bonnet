@@ -11,7 +11,7 @@
   <meta name="author" content="name">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
-  <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png"/>
   <link href="styles/slick.css" rel="stylesheet" type="text/css" />
   <link href="styles/slick-theme.css" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">

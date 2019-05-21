@@ -12,7 +12,7 @@
         <video src="videos/mainVideo.mp4" type="video/mp4" id="mainVideo" preload="auto" playsinline autoplay muted loop></video>
     </div>
 
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
 
     <section class="mainWrapper sectionBorder" id="introAbout">
         <!-- intro para -->
@@ -241,11 +241,11 @@
         </section>
         <a href="events.php"><button class="allBtns"><span>See Events</span></button></a>
     </section>
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
     <!-- parallax scrolling -->
     <div class="parallaxHome"></div>
     <!-- sponsors -->
-    <img src="rope1.png" alt="rope graphic" class="rope" />
+    <img src="images/rope.png" alt="rope graphic" class="rope" />
     <section class="mainWrapper sectionBorder">
             <span class="headerText">Our Sponsors</span>
             <hr>

@@ -4,7 +4,7 @@
         session_unset();
         session_destroy();
         
-        header("location: login.php");
+        header("location: cms/login.php");
         exit();
     }
 ?>
@@ -17,18 +17,18 @@
     <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Home | WarBonnetRoundUp</title>
+    <title>CPanel | WarBonnetRoundUp</title>
   <meta name="author" content="name">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
   <!-- <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"> -->
-  <link href="styles/reset.css" rel="stylesheet" type="text/css">
+  <link href="../styles/reset.css" rel="stylesheet" type="text/css">
   <link href="styles/cms.css" rel="stylesheet" type="text/css">
   </head>
   <body>
 
     <nav class="navCMS">
-        <img src="logos/mainLogo2_v2_sm.png" alt="Idaho's oldest rodeo" class="logoCMS" />
+        <img src="../logos/mainLogo2_v2_sm.png" alt="Idaho's oldest rodeo" class="logoCMS" />
         <div class="loggedIn">
             <span class="loginUserName">Logged-in as, <?php echo $_SESSION['user']; ?></span>
         </div>
@@ -39,9 +39,9 @@
             <li>test</li>
         </ul>
         <div class="logoutContainer">
-            <a href="logout.php" title="Logout"><img src="images/icons/logout_white.png" alt="logout icon" class="logoutCMS" name="logout" /></a>
+            <a href="logout.php" title="Logout"><img src="../images/icons/logout_white.png" alt="logout icon" class="logoutCMS" name="logout" /></a>
             <br>
-            <a href="index.php" target="_blank" class="goHome">Open Home Page</a>
+            <a href="../index.php" target="_blank" class="goHome">Open Home Page</a>
         </div>
     </nav>
 

@@ -1,6 +1,6 @@
 <!-- start session -->
 <?php
-    include("database/connection.php");
+    include("../database/connection.php");
     session_start();
  ?>
 
@@ -8,7 +8,7 @@
 // Checking whether the session is already there or not
 // if true, redirect them to cms page
 if (isset($_SESSION['user'])) {
-    header("Location: cms.php"); 
+    header("Location: cpanel.php"); 
  }
 
  // it checks whether the user clicked login button or not
@@ -44,7 +44,7 @@ if (isset($_POST['login'])) {
     // compare values
     if ($username == $user && $password == $pass) {
             $_SESSION['user'] = $row['userName'];
-            echo '<script type="text/javascript"> window.open("cms.php","_self");</script>';
+            echo '<script type="text/javascript"> window.open("cpanel.php","_self");</script>';
         } else { 
             echo "Invalid";
         }
@@ -72,7 +72,7 @@ if (isset($_POST['login'])) {
 
 <main>
     <form action="" method="POST" id="loginBox">
-        <img src="logos/mainLogo2_v2_sm.png" alt="Idaho's oldest rodeo" id="logoLogin" />
+        <img src="../logos/mainLogo2_v2_sm.png" alt="Idaho's oldest rodeo" id="logoLogin" />
         <div id="flexFields">
             <label>Username</label>
             <input type="text" class="inputLogin" name="user" autocomplete="off">
@@ -80,7 +80,7 @@ if (isset($_POST['login'])) {
             <input type="password" class="inputLogin" name="pass">
         </div>
         <button id="loginBtn" name="login"><span>Login</span></button>
-        <a href="index.php" target="_blank" id="goHome">Open Home Page</a>
+        <a href="../index.php" target="_blank" id="goHome">Open Home Page</a>
     </form>
 </main>
 

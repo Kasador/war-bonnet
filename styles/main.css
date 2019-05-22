@@ -128,23 +128,23 @@ nav.social {
 /* end of social nav  */
 
 /* scroll to top */
-.scrollToTop {
-  width: 150px;
-  height: 150px;
-  padding: 10px;
+.fa-arrow-circle-up {
+  color: lightgray;
+  border-radius: 100%;
+  font-size: 3.5em;
   position: fixed;
   z-index: 20;
-  top: 87%;
-  left: 93%;
+  bottom: 30px;
+  right: 30px;
   display: none;
-  background: url("../images/toTop.png") no-repeat 0px 20px;
+  cursor: pointer;
 }
 
-.scrollToTop:active {
+.fa-arrow-circle-up:active {
   outline: none;
 }
 
-.scrollToTop:focus {
+.fa-arrow-circle-up:focus {
   outline: none;
 }
 
@@ -1814,8 +1814,9 @@ figcaption {
     font-size: 0.7em;
   }
 
-  .scrollToTop {
-    left: 90%;
+  .fa-arrow-circle-up {
+    bottom: 20px;
+    right: 20px;
   }
 
   .social {
@@ -1931,11 +1932,6 @@ figcaption {
     font-size: 0.7em;
     width: 150px;
   }
-
-  .scrollToTop {
-    left: 87%;
-  }
-
   .vol {
     width: 100%;
   }
@@ -1995,38 +1991,27 @@ figcaption {
   .spacer {
     display: none;
   }
-
   .pageHeaders {
     font-size: 3em;
   }
-
   .map {
     width: 95%;
     height: 200px;
   }
-
   .allBtnsFontSize {
     font-size: 0.6em;
     width: 130px;
   }
-
-  .scrollToTop {
-    left: 84%;
-  }
-
   .queenP p {
     width: 200px;
   }
-
   figcaption {
     font-size: 0.6em;
   }
-
   .royQueens {
     width: 200px;
     height: 200px;
   }
-
   .containerPopup,
   .containerPopup1,
   .containerPopup2,
@@ -2037,16 +2022,13 @@ figcaption {
     margin-left: -150px;
     /* negative half the size of width */
   }
-
   .flexPopup span {
     font-size: 0.6em;
   }
-
   .imagesPopups {
     width: 250px;
     height: 150px;
   }
-
   .copyRightText {
     font-size: 0.7em;
   }
@@ -2059,19 +2041,16 @@ figcaption {
     height: auto;
   }
 }
-
 @media only screen and (max-width: 500px) {
   .planImages {
     width: 300px;
     height: 150px;
   }
 }
-
 @media only screen and (max-width: 450px) {
   .eventsImages {
     width: 225px;
   }
-
   .eventsText {
     font-size: 0.7em;
   }

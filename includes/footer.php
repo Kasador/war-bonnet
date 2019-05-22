@@ -1,5 +1,3 @@
-
-
 <footer>
   <div class="footerWrapper">
     <img src="logos/mainLogo.png" alt="warbonnetroundup logo" class="footerLogo" />

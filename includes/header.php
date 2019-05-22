@@ -26,5 +26,6 @@
         <li><a target="_blank" id="social" href="https://www.facebook.com/IdahosOldestRodeo/">Facebook<i class="fab fa-facebook"></i></a></li>
     </ul>
 </nav>
+<i class="fas fa-arrow-circle-up scrollToTop"></i>
 <div id="overlay"></div>
 

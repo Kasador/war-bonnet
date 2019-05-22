@@ -148,7 +148,6 @@ $(document).ready(function () {
             $(".pageHeaders").css("border-width", "10px");
         }, 2000);
     })();
-
     // on ticket graphic being clicked, redirect to ticket page
     let ticketGraphic = $('.ticketsImgInfo');
     let eventbrite = "https://www.eventbrite.com/e/idahos-oldest-rodeo-the-war-bonnet-round-up-2019-tickets-52368824564";
@@ -156,7 +155,6 @@ $(document).ready(function () {
     ticketGraphic.on('click', function () {
         window.open(eventbrite, '_blank');
     });
-
     // on logo being clicked, redirect to index.php
     let logo = $(".logoClicked");
     logo.css("cursor", "pointer");

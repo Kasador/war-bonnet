@@ -2,8 +2,8 @@
 <?php
     include("../database/connection.php");
     session_start();
+    $incorrect = '';
  ?>
-
 <?php
 // Checking whether the session is already there or not
 // if true, redirect them to cms page
@@ -46,7 +46,7 @@ if (isset($_POST['login'])) {
             $_SESSION['user'] = $row['userName'];
             echo '<script type="text/javascript"> window.open("cpanel.php","_self");</script>';
         } else { 
-            echo "Invalid";
+            $incorrect = "Username or password is incorrect. Please try again.";
         }
     }
 ?>
@@ -79,6 +79,7 @@ if (isset($_POST['login'])) {
             <label>Password</label>
             <input type="password" class="inputLogin" name="pass">
         </div>
+        <span style="color: yellow; padding: 5px; position: absolute; right: 150px; left: 150px; width: 100%;"><?php echo $incorrect ?></span>
         <button id="loginBtn" name="login"><span>Login</span></button>
         <a href="../index.php" target="_blank" id="goHome">Open Home Page</a>
     </form>

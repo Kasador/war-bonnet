@@ -23,5 +23,23 @@ FROM
 
 -- create table for images of events
 CREATE TABLE eventimg_tbl (
-
+	imgId int NOT NULL AUTO_INCREMENT,
+    name BLOB,
+    PRIMARY KEY (imgId)
 );
+
+DROP TABLE eventimg_tbl;
+
+SELECT 
+	*
+FROM
+	eventimg_tbl;
+
+
+
+
+
+
+
+
+

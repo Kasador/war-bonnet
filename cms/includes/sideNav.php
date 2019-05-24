@@ -27,26 +27,26 @@
   <link href="styles/cms.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-
+  <span class="time"></span>
     <nav class="navCMS">
         <img src="../logos/mainLogo2_v2_sm.png" alt="Idaho's oldest rodeo" class="logoCMS" />
         <div class="loggedIn">
             <span class="loginUserName">Logged-in as, <br><br><span style="color: #222; border: 2px solid #222; padding: 3px; background-color: lightgray;"><?php echo $_SESSION['user']; ?></span></span>
         </div>
         <ul class="flex-menu">
-            <li id="user"><i class="fas fa-user li-icons"></i> users
+            <a href="cpanel.php"><li class="dashboard"><i class="fas fa-chart-line li-icons"></i> dashboard</li></a>
+            <li class="user"><i class="fas fa-user li-icons"></i> users
                 <ul class="side-menu-cms user-menu">
                   <li>add user</li>
                   <li>delete user</li>
                 </ul>
             </li>
-            <li id="edit"><i class="fas fa-edit li-icons"></i> edit
+            <li class="edit"><i class="fas fa-edit li-icons"></i> edit
             <ul class="side-menu-cms edit-menu">
-                  <li>events</li>
+                  <a href="edit-events.php"><li>events</li></a>
                   <li>testtest</li>
                 </ul>
             </li>
-            <li>test</li>
             <li>test</li>
         </ul>
         <div class="logoutContainer">

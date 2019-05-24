@@ -12,6 +12,9 @@ WARNING: no comments on colors, please use a good text editor to see color
 ------------ */
 
 /* css for CMS */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .navCMS {
     position: fixed;
     width: 150px;
@@ -38,7 +41,7 @@ WARNING: no comments on colors, please use a good text editor to see color
 }
 .flex-menu li {
     display: flex;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: white;
     padding: 5px 0;
     margin: 1px 0px;
@@ -46,6 +49,10 @@ WARNING: no comments on colors, please use a good text editor to see color
     justify-content: center;
     cursor: pointer;
     transition: all 0.3;
+    width: 100%;
+}
+.flex-menu a {
+    text-decoration: none;
     width: 100%;
 }
 .flex-menu li:hover {
@@ -65,6 +72,9 @@ WARNING: no comments on colors, please use a good text editor to see color
 .main {
     margin-left: 150px; 
     padding: 0px 10px;
+}
+.main-container {
+    margin: 10px 80px;
 }
 .loggedIn {
     display: flex;
@@ -93,11 +103,12 @@ WARNING: no comments on colors, please use a good text editor to see color
 .goHome:hover {
     color: lightgray;
 }
-#footer {
+.footer {
     color: lightgray;
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     right: 20px;
+    z-index: -100;
 }
 .li-icons {
     font-size: 0.7em;
@@ -119,9 +130,88 @@ WARNING: no comments on colors, please use a good text editor to see color
 }
 .user-menu {
     display: none;
-    top: 157.495px;
+    top: 188.3px;
 }
 .edit-menu {
     display: none;
-    top: 193.2px;
+    top: 219.2px;
 }
+.time {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    font-size: 0.7em;
+    color: lightgray;
+    z-index: -100;
+}
+#cms-header {
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+.page-tag {
+    position: fixed;
+    left: 180px;
+    top: 10px;
+    color: lightgray;
+    font-size: 1em;
+    z-index: -100;
+}
+#img-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+.events-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.edit-headers {
+    padding: 10px;
+    color: gray;
+}
+#events-desc {
+    height: 200px;
+}
+/* #event-submit {
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+} */
+.submit-btns {
+    border-radius: 4px;
+    background-color: #3C66B0;
+    border: 2px solid #DE1D3D;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.0em;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+  }
+  .submit-btns span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .submit-btns span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .submit-btns:hover span {
+    padding-right: 15px;
+  }
+  .submit-btns:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

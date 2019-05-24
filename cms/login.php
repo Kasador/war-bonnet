@@ -79,16 +79,9 @@ if (isset($_POST['login'])) {
             <label>Password</label>
             <input type="password" class="inputLogin" name="pass">
         </div>
-        <span style="color: yellow; padding: 5px; position: absolute; right: 150px; left: 150px; width: 100%;"><?php echo $incorrect ?></span>
+        <span style="color: yellow; padding: 5px; position: absolute; right: 125px; left: 125px; width: 100%;"><?php echo $incorrect ?></span>
         <button id="loginBtn" name="login"><span>Login</span></button>
-        <a href="../index.php" target="_blank" id="goHome">Open Home Page</a>
     </form>
 </main>
-
-<!-- <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="scripts/main.js"></script> -->
-  </body>
+</body>
 </html>

@@ -16,8 +16,8 @@ WARNING: no comments on colors, please use a good text editor to see color
 }
 
 #loginBox {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     background:#3C66B0;
     position:absolute;
     color:#fff;
@@ -33,7 +33,7 @@ WARNING: no comments on colors, please use a good text editor to see color
 }
 #logoLogin {
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 #flexFields {
     display: flex;
@@ -63,7 +63,7 @@ WARNING: no comments on colors, please use a good text editor to see color
     border: 2px solid #DE1D3D;
     color: #FFFFFF;
     text-align: center;
-    font-size: 2.0em;
+    font-size: 1.4em;
     padding: 10px;
     width: 150px;
     transition: all 0.5s;
@@ -92,12 +92,3 @@ WARNING: no comments on colors, please use a good text editor to see color
     opacity: 1;
     right: 0;
   }
-  #goHome {
-    position: absolute;
-    width: 250px;
-    right: 150px;
-    bottom: 20px;
-    color: #ffffff;
-    font-size: 1.5em;
-}
-

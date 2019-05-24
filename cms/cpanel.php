@@ -1,4 +1,3 @@
-<!-- start session -->
 <?php
     include("../database/connection.php");
     session_start();
@@ -10,19 +9,14 @@
         exit();
     }
  ?>
- <main class="main">
-    <p> test </p>
-    <!-- footer -->
-    <footer>
-        <div id="footer">
-            <span>WarBonnetRoundUp, version 1.0</span>
-        </div>
-    </footer>
+<!-- page tag -->
+<span class="page-tag">Dashboard</span>
+<!-- main content -->
+<main class="main">
+    <section class="main-container">
+        <h1 id="cms-header">test</h1>
+    </section>
 </main>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script src="scripts/cms.js"></script>
-</body>
-</html>
+ <?php
+    include("includes/footer.php");
+ ?>

@@ -22,18 +22,20 @@ FROM
 	userinfo_tbl; */
 
 -- create table for images of events
-CREATE TABLE eventimg_tbl (
-	imgId int NOT NULL AUTO_INCREMENT,
-    name BLOB,
-    PRIMARY KEY (imgId)
+CREATE TABLE events_tbl (
+	eventId int NOT NULL AUTO_INCREMENT,
+    title VARCHAR(100),
+    imgName BLOB,
+    description VARCHAR(200),
+    PRIMARY KEY (eventId)
 );
 
-DROP TABLE eventimg_tbl;
+DROP TABLE events_tbl;
 
 SELECT 
 	*
 FROM
-	eventimg_tbl;
+	events_tbl;
 
 
 
